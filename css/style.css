@@ -11,6 +11,8 @@ body{
   font-family: ‘Nerko One’, cursive;
 }
 
+/* contenuto pagina css */
+
 header{
   margin: 40px 20%;
   color: white;
@@ -40,6 +42,27 @@ main{
   background-image: url(../img/pattern.png);
   background-size: 150px;
   border-radius: 10px;
+
+}
+
+img{
+  width: 150px;
+  height: 200px;
+  position: absolute;
+   /* z-index: 0; */
+  background-color: white;
+  display: none;
+  border-radius: 10px;
+}
+
+.carta:hover img{
+  display: block;
+
+}
+
+/* .tractor{
+  background-image: url(../img/noun_Tractor_3134797.png);
+  background-size: 150px; */
 
 }
 
