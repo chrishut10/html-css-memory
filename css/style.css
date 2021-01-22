@@ -13,9 +13,6 @@ body{
 
 /* contenuto pagina css */
 
-/* #container{ */
-
-}
 
 header{
   margin: 40px 25%;
@@ -88,3 +85,9 @@ p{
   font-size: 15px;
   font-weight: bolder;
 }
+
+
+
+
+/* #container{
+} */
