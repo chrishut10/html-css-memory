@@ -37,10 +37,16 @@ main{
   height: 200px;
   display: inline-block;
   margin-bottom: 20px;
-  margin-left: 20px
-
-
+  margin-left: 20px;
 }
+
+.balloon {
+  bottom: 0;
+  color: orange;
+  width: 100px;
+  display: none;
+}
+
 
 #special-carta{
   background-image: url(../img/pattern.png);
@@ -63,6 +69,7 @@ img{
   display: block;
 
 }
+
 
 /* .tractor{
   background-image: url(../img/noun_Tractor_3134797.png);
