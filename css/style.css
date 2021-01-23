@@ -33,7 +33,6 @@ main{
   background-image: url(../img/pattern.png);
   background-size: 150px;
   border-radius: 10px;
-
   position: relative;
   width: 150px;
   height: 200px;
@@ -50,7 +49,9 @@ main{
   /* z-index: 1; */
   position: absolute;
   text-align: center;
-  line-height: 20px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
   display: none;
 }
 
@@ -73,7 +74,9 @@ main{
   /* z-index: 1; */
   position: absolute;
   text-align: center;
-  line-height: 20px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
   display: none;
 }
 
@@ -91,12 +94,6 @@ main{
 }
 
 
-
-
-
-
-
-
 .carta img{
   width: 150px;
   height: 200px;
@@ -105,19 +102,17 @@ main{
   background-color: white;
   display: none;
   border-radius: 10px;
-  padding-bottom: 15px;
+  padding: 20%;
 }
 
 .carta:hover img{
   display: block;
-
 }
 
 
 /* .tractor{
   background-image: url(../img/noun_Tractor_3134797.png);
   background-size: 150px; */
-
 }
 
 footer{
