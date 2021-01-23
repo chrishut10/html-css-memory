@@ -30,6 +30,11 @@ main{
 }
 
 .carta{
+  background-image: url(../img/pattern.png);
+  background-size: 150px;
+  border-radius: 10px;
+
+  position: relative;
   width: 150px;
   height: 200px;
   display: inline-block;
@@ -37,22 +42,62 @@ main{
   margin-left: 20px;
 }
 
-.balloon {
+
+.balloon, .bicycle, .tractor{
   bottom: 0;
   color: orange;
-  width: 100px;
+  width: 150px;
+  /* z-index: 1; */
+  position: absolute;
+  text-align: center;
+  line-height: 20px;
   display: none;
 }
 
-
-#special-carta{
-  background-image: url(../img/pattern.png);
-  background-size: 150px;
-  border-radius: 10px;
-
+.carta:hover .balloon{
+  display: block;
 }
 
-img{
+.carta:hover .bicycle{
+  display: block;
+}
+
+.carta:hover .tractor{
+  display: block;
+}
+
+.tram, .cruise, .submarine{
+  bottom: 0;
+  color: orange;
+  width: 150px;
+  /* z-index: 1; */
+  position: absolute;
+  text-align: center;
+  line-height: 20px;
+  display: none;
+}
+
+.carta:hover .tram{
+  display: block;
+}
+
+
+.carta:hover .cruise{
+  display: block;
+}
+
+.carta:hover .submarine{
+  display: block;
+}
+
+
+
+
+
+
+
+
+.carta img{
   width: 150px;
   height: 200px;
   position: absolute;
@@ -60,6 +105,7 @@ img{
   background-color: white;
   display: none;
   border-radius: 10px;
+  padding-bottom: 15px;
 }
 
 .carta:hover img{
